@@ -85,3 +85,23 @@ ul{
     transform: rotate(45deg);
     top:0;
 }
+@media (min-width: 800px) {
+    .nav{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+    }
+    .menu li{
+        float: left;
+    }
+    .menu a:hover{
+        background-color: transparent;
+        color: gray;
+    }
+    .hamb{
+        display: none;
+    }
+}
